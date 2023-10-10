@@ -65,7 +65,7 @@ environment_name: mnist_DBA
 save_model: false
 save_on_epochs: [10,16,17,18,19,20,21,22]
 
-resumed_model: true
+resumed_model: False
 resumed_model_name: mnist_pretrain/model_last.pt.tar.epoch_10
 resumed_model_path: mnist_pretrain/
 
