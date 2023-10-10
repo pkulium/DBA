@@ -253,7 +253,7 @@ class Helper:
             if self.params['diff_privacy']:
                 update_per_layer.add_(self.dp_noise(data, self.params['sigma']))
 
-            data.add_(update_per_layer)
+            data.add_(update_per_layer.to(data.dtype))
         return True
 
     def foolsgold_update(self,target_model,updates):
