@@ -7,7 +7,7 @@ poison_lr: 0.05
 momentum: 0.9
 decay: 0.0005
 batch_size: 64
-epochs: 60
+epochs: 300
 internal_epochs: 2
 internal_poison_epochs: 6
 internal_poison_clean_epochs: 0
